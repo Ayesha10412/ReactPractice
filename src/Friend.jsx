@@ -1,6 +1,7 @@
 
 export default function Friend({friend}){
 
+    // destructing the data
 const {name,email }=friend;
 
 const friendStyle={
