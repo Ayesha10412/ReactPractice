@@ -3,6 +3,7 @@ import './App.css'
 import Counter from './Counter'
 import Team from './Team'
 import Users from './Users'
+import Friends from './Friends'
 
 function App() {
 
@@ -31,6 +32,7 @@ const addToFive= (num) =>{
 <Counter></Counter>
 <Team></Team>
 <Users></Users>
+<Friends></Friends>
     </>
   )
 }
