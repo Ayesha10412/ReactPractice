@@ -4,6 +4,7 @@ import Counter from './Counter'
 import Team from './Team'
 import Users from './Users'
 import Friends from './Friends'
+import Posts from './Posts'
 
 function App() {
 
@@ -20,6 +21,7 @@ const addToFive= (num) =>{
 }
   return (
     <>
+    <Posts></Posts>
      <h3>React core concepts 2</h3>
      <button onClick={handleClick}>Click Me</button>
      <button onClick={()=>{alert('Button was clicked')}}>Click2</button>
@@ -33,6 +35,7 @@ const addToFive= (num) =>{
 <Team></Team>
 <Users></Users>
 <Friends></Friends>
+
     </>
   )
 }
